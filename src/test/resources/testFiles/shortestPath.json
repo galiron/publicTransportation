@@ -1,0 +1,115 @@
+{"stops": [
+  {
+    "stopId": 1,
+    "types": [
+      "BUS",
+      "SUBURBAN_TRAIN",
+      "SUBWAY"
+    ],
+    "state": "OPEN",
+    "name": "Hauptbahnhof D2",
+    "city": "Kiel"
+  },
+  {
+    "stopId": 2,
+    "types": [
+      "BUS",
+      "SUBURBAN_TRAIN"
+    ],
+    "state": "OPEN",
+    "name": "Hummelwiese",
+    "city": "Kiel"
+  },
+  {
+    "stopId": 3,
+    "types": [
+      "BUS",
+      "SUBURBAN_TRAIN"
+    ],
+    "state": "OPEN",
+    "name": "KVG-Btf. Werftstraße C",
+    "city": "Kiel"
+  },
+  {
+    "stopId": 4,
+    "types": [
+      "BUS",
+      "SUBURBAN_TRAIN"
+    ],
+    "state": "OPEN",
+    "name": "Karlstal",
+    "city": "Kiel"
+  },
+  {
+    "stopId": 5,
+    "types": [
+      "BUS",
+      "SUBURBAN_TRAIN"
+    ],
+    "state": "OPEN",
+    "name": "H D W",
+    "city": "Kiel"
+  },
+  {
+    "stopId": 6,
+    "types": [
+      "BUS",
+      "SUBWAY"
+    ],
+    "state": "OPEN",
+    "name": "Fachhochschule",
+    "city": "Kiel"
+  }
+],
+  "trafficLines": [
+    {
+      "lineId": 1,
+      "name": "Line 11",
+      "type": "BUS",
+      "sections": [
+        {
+          "beginStopId": 1,
+          "endStopId": 2,
+          "durationInMinutes": 5
+        },
+        {
+          "beginStopId": 2,
+          "endStopId": 3,
+          "durationInMinutes": 3
+        },
+        {
+          "beginStopId": 3,
+          "endStopId": 4,
+          "durationInMinutes": 2
+        },
+        {
+          "beginStopId": 4,
+          "endStopId": 5,
+          "durationInMinutes": 5
+        },
+        {
+          "beginStopId": 5,
+          "endStopId": 6,
+          "durationInMinutes": 5
+        }
+      ]
+    },
+    {
+      "lineId": 2,
+      "name": "Underground 1",
+      "type": "SUBWAY",
+      "sections": [
+        {
+          "beginStopId": 1,
+          "endStopId": 3,
+          "durationInMinutes": 5
+        },
+        {
+          "beginStopId": 3,
+          "endStopId": 6,
+          "durationInMinutes": 5
+        }
+      ]
+    }
+  ]
+}

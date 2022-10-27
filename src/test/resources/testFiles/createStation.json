@@ -1,0 +1,11 @@
+{
+  "stopId": 1,
+  "types": [
+    "BUS",
+    "SUBURBAN_TRAIN",
+    "SUBWAY"
+  ],
+  "state": "CLOSED",
+  "name": "Hauptbahnhof D2",
+  "city": "Kiel"
+}

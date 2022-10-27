@@ -1,0 +1,2 @@
+To solve the shortest path algorithm the source code from: "https://www.baeldung.com/java-dijkstra"
+was taken. Variable names may differ.
